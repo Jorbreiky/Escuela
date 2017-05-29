@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CBTis 268</string>
+    <integer name="tamano_letra">20</integer>
+    <string name="title_activity_principal">Principal</string>
+    <string name="direccion_cbtis">Direccion:  Crescencio Morales Poniente 144, Las Palmas, 61517 Zitácuaro, Mich.</string>
+    <string name="title_activity_colapse">ColapseActivity</string>
+</resources>

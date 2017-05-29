@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon = "@drawable/menu_inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_alumno"
+            android:icon = "@drawable/menu_alumno"
+            android:title="Alumnos" />
+        <item
+            android:id="@+id/nav_maestro"
+            android:icon = "@drawable/menu_maestro"
+            android:title="Maestros" />
+        <item
+            android:id="@+id/nav_materia"
+            android:icon = "@drawable/menu_materia"
+            android:title="Materias" />
+        <item
+            android:id="@+id/nav_grupo"
+            android:icon = "@drawable/menu_grupo"
+            android:title="Grupos" />
+    </group>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/nav_carrera"
+                android:icon = "@drawable/menu_carrera"
+                android:title="Carreras" />
+            <item
+                android:id="@+id/nav_usuarios"
+                android:icon = "@drawable/menu_usuario"
+                android:title="Usuarios" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon = "@drawable/menu_logout"
+                android:title="Cerrar Sesiòn" />
+        </menu>
+    </item>
+
+</menu>

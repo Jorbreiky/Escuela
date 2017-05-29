@@ -1,0 +1,93 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ENCABEZADO DE LA APLICACION-->
+    <style name="encabezado">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:src">@drawable/cbtis</item>
+    </style>
+
+    <!-- ESTILO DE LOS TITULOS DE LOS FRAGMENTOS ALUMNOS, MAESTROS, MATERIAS, GRUPOS CARRERAS, ETC... -->
+    <style name="titulo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- ESTILO DE LOS SUBTITULOS DE LOS FRAGMENTOS -->
+    <style name="subtitulo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- ESTILO DE LOS TEXTOS DE FORMULARIOS -->
+    <style name="textForm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <!-- ESTILO DE LOS CONTENEDORES DE LOS FRAGMENTOS -->
+    <style name="linearContenedor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- ESTILO DE LAS FILAS DE LOS FRAGMENTOS -->
+    <style name="linearRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- ESTILO DE LOS SPINNER DE LOS FORMULARIOS -->
+    <style name="spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/estilo_spinner</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spinnerItemStyle">@layout/estilo_spinner_item</item>
+        <item name="android:spinnerDropDownItemStyle">@layout/estilo_spinner_dropdown_item</item>
+    </style>
+
+    <!-- ESTILO DEL COLAPSE -->
+    <style name="expandedappbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#ffff3017</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="collapsedappbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+</resources>
